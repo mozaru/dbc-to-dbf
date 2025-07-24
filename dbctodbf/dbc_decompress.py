@@ -7,7 +7,7 @@ Licensed under the zlib License (see LICENSE file for details).
 """
 
 import sys
-from blastDecompress import BlastDecompress
+from .blast_decompress import BlastDecompress
 
 class DBCDecompress (BlastDecompress):
     
