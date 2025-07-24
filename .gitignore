@@ -1,0 +1,45 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+*.spec
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testes temporários
+.coverage
+.tox/
+.pytest_cache/
+.cache/
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*.bak
+*.tmp
+
+# Arquivos de wheel
+*.whl
