@@ -1,0 +1,33 @@
+[project]
+name = "dbc-to-dbf"
+version = "1.0.0"
+description = "Convert DBC files (compressed DBF - DATASUS) into DBF using the PKWare BLAST decompression algorithm"
+authors = [
+  { name = "Mozar Silva", email = "mozar.silva@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+keywords = ["dbc", "DATASUS", "dbf", "pkware", "blast", "decompression", "converter"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: zlib/libpng License",
+  "Topic :: Utilities",
+  "Topic :: File Formats :: DBF",
+  "Intended Audience :: Developers"
+]
+
+[project.urls]
+Homepage = "https://github.com/mozaru/dbc-to-dbf"
+Repository = "https://github.com/mozaru/dbc-to-dbf"
+
+[project.scripts]
+dbc2dbf = "dbctodbf.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
